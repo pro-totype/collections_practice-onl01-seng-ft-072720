@@ -44,3 +44,9 @@ def add_s(array)
   end
 end
 
+def sum_array(array)
+  sum = 0
+  array.each do |num|
+    sum+=num
+  end
+  sum
