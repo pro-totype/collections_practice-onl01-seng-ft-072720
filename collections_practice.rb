@@ -21,8 +21,8 @@ def reverse_array(array)
 end
 
 def kesha_maker(array)
-    array.
-  array.join
+    array.collect do |item|
+      item[2]= "$"
 end
 
 def add_s(array)
