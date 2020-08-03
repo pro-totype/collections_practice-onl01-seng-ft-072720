@@ -30,3 +30,8 @@ def add_s(array)
   array.map{|x| x = array.join("s")}
   
 end
+
+def find_a(array)
+  array.find_all do |w|
+    w[0] == "a"
+  end
