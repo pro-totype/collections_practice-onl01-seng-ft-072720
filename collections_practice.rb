@@ -26,6 +26,6 @@ def kesha_maker(array)
 end
 
 def add_s(array)
-  array.split.collect{|x| x = array.join("s")}
+  array.collect{|x| x = array.join("s")}
   
 end
