@@ -35,3 +35,4 @@ def find_a(array)
   array.find_all do |w|
     w[0] == "a"
   end
+  end
